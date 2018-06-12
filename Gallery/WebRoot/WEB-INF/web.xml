@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns="http://java.sun.com/xml/ns/javaee"  
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"  
+    id="WebApp_ID" version="3.0">  
+    <display-name>Ggllery</display-name>  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+    <servlet>  
+        <servlet-name>LoginServlet</servlet-name>  
+        <servlet-class>util.LoginServlet</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>LoginServlet</servlet-name>  
+        <url-pattern>/loginServlet</url-pattern>  
+    </servlet-mapping>  
+
+	<servlet>  
+        <servlet-name>findServlet</servlet-name>  
+        <servlet-class>util.findServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>findServlet</servlet-name>  
+        <url-pattern>/findServlet</url-pattern>  
+    </servlet-mapping> 
+	
+	<servlet> 
+		<description></description>
+		<display-name>DeleteServlet</display-name> 
+        <servlet-name>DeleteServlet</servlet-name>  
+        <servlet-class>util.DeleteServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>DeleteServlet</servlet-name>  
+        <url-pattern>/DeleteServlet</url-pattern>  
+    </servlet-mapping> 
+	
+	<servlet> 
+		<description></description>
+		<display-name>DeleteAServlet</display-name> 
+        <servlet-name>DeleteAServlet</servlet-name>  
+        <servlet-class>util.DeleteAServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>DeleteAServlet</servlet-name>  
+        <url-pattern>/DeleteAServlet</url-pattern>  
+    </servlet-mapping> 
+
+    <servlet> 
+		<description></description>
+		<display-name>UsrDeleteServlet</display-name> 
+        <servlet-name>UsrDeleteServlet</servlet-name>  
+        <servlet-class>util.UsrDeleteServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>UsrDeleteServlet</servlet-name>  
+        <url-pattern>/UsrDeleteServlet</url-pattern>  
+    </servlet-mapping>
+
+     <servlet> 
+		<description></description>
+		<display-name>DeleteUServlet</display-name> 
+        <servlet-name>DeleteUServlet</servlet-name>  
+        <servlet-class>util.DeleteUServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>DeleteUServlet</servlet-name>  
+        <url-pattern>/DeleteUServlet</url-pattern>  
+    </servlet-mapping> 
+
+	<servlet> 
+		<description></description>
+		<display-name>DeleteRUServlet</display-name> 
+        <servlet-name>DeleteRUServlet</servlet-name>  
+        <servlet-class>util.DeleteRUServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>DeleteRUServlet</servlet-name>  
+        <url-pattern>/DeleteRUServlet</url-pattern>  
+    </servlet-mapping> 
+
+	<servlet> 
+		<description></description>
+		<display-name>UpdateServlet</display-name> 
+        <servlet-name>UpdateServlet</servlet-name>  
+        <servlet-class>util.UpdateServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>UpdateServlet</servlet-name>  
+        <url-pattern>/UpdateServlet</url-pattern>  
+    </servlet-mapping> 
+	
+	<servlet> 
+		<description></description>
+		<display-name>UpdateAServlet</display-name> 
+        <servlet-name>UpdateAServlet</servlet-name>  
+        <servlet-class>util.UpdateAServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>UpdateAServlet</servlet-name>  
+        <url-pattern>/UpdateAServlet</url-pattern>  
+    </servlet-mapping> 
+
+    <servlet> 
+		<description></description>
+		<display-name>UploadServlet</display-name> 
+        <servlet-name>UploadAServlet</servlet-name>  
+        <servlet-class>util.UploadServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>UploadServlet</servlet-name>  
+        <url-pattern>/UploadServlet</url-pattern>  
+    </servlet-mapping> 
+
+    <servlet> 
+		<description></description>
+		<display-name>UploadAServlet</display-name> 
+        <servlet-name>UploadServlet</servlet-name>  
+        <servlet-class>util.UploadServlet</servlet-class>  
+	   </servlet> 
+    <servlet-mapping>  
+        <servlet-name>UploadAServlet</servlet-name>  
+        <url-pattern>/UploadAServlet</url-pattern>  
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UploadUServlet</servlet-name>
+        <servlet-class>util.UploadUServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadUServlet</servlet-name>
+        <url-pattern>/UploadUServlet</url-pattern>
+    </servlet-mapping> 
+  
+</web-app>  
