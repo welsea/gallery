@@ -26,8 +26,9 @@ J2EE项目开发与设计大作业
 
 ##  截图
 *  主页
-![image](https://github.com/welsea/gallery_J2EE/main.png)
+![image](https://github.com/welsea/gallery_J2EE/raw/master/main.png)
 *  搜索结果展示页（此处搜索m）
+![image](https://github.com/welsea/gallery_J2EE/raw/master/search.png)
 *  用户分享页
-
+![image](https://github.com/welsea/gallery_J2EE/raw/master/share.png)
 
