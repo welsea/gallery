@@ -20,6 +20,6 @@ J2EE项目开发与设计大作业
 * JDBC
 * Servlet
 * 基础数据库知识
-* 前端设计使用Bootstrap
+* 使用Bootstrap4框架
 
 
