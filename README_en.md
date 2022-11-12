@@ -1,7 +1,9 @@
 # Gallery
 project for J2EE course
 
-A community for discuss galleries.
+only available in Chinese
+
+**A community for discuss galleries.**
 
 ## features
 
