@@ -1,5 +1,6 @@
 # Gallery
-Bachelor thesis project.
+project for J2EE course
+
 A community for discuss galleries.
 
 ## features
