@@ -1,4 +1,6 @@
 # Gallery
+[EN](https://github.com/welsea/gallery_J2EE/blob/master/README_en.md)
+
 J2EE项目开发与设计大作业
 
 ## 功能介绍
